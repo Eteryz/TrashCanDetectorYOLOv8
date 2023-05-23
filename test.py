@@ -24,7 +24,7 @@ if __name__ == '__main__':
     path = 'C:\\Users\\Vladislav\\PycharmProjects\\TrashCanDetectorYOLOv8\\runs\\detect\\train\\weights\\best.pt'
     model = YOLO(path)
 
-    img = "C:\\Users\\Vladislav\\PycharmProjects\\TrashCanDetectorYOLOv8\\Image_from_array.png"
+    img = "resources/5.png"
     # Обнаружение объектов и сохранение результата в папке runs
     results = model(
         source=img,
