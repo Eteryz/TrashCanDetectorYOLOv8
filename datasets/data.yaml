@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Trashcan']
+
+roboflow:
+  workspace: vladislav-pozharnikov-yth8a
+  project: trashcan-dataset-zgfzi
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vladislav-pozharnikov-yth8a/trashcan-dataset-zgfzi/dataset/3
